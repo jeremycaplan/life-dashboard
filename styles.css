@@ -1,0 +1,278 @@
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.container-fluid {
+    max-width: 1400px;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    color: #2c3e50;
+    font-weight: 700;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 2px solid #f0f0f0;
+    padding: 1rem 1.5rem;
+}
+
+.card-header h3 {
+    color: #2c3e50;
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.form-label {
+    font-weight: 500;
+    color: #495057;
+}
+
+.form-control {
+    border: 2px solid #e9ecef;
+    border-radius: 8px;
+    padding: 0.75rem;
+    transition: border-color 0.2s;
+}
+
+.form-control:focus {
+    border-color: #4c6ef5;
+    box-shadow: none;
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.btn-secondary {
+    background-color: #4c6ef5;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #4263eb;
+}
+
+.results {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: 1.5rem;
+}
+
+canvas {
+    max-width: 100%;
+    height: auto;
+}
+
+#familyMembers .family-member {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.progress {
+    height: 10px;
+    border-radius: 5px;
+    margin: 1rem 0;
+}
+
+.timeline-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20px, 1fr));
+    gap: 4px;
+    padding: 20px;
+}
+
+.timeline-block {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.timeline-block.lived {
+    background-color: #4c6ef5;
+    border-color: #4c6ef5;
+}
+
+.metric-display {
+    text-align: center;
+    padding: 1rem;
+}
+
+.stats-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.metric-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.metric-number {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4c6ef5;
+    min-width: 3ch;
+    text-align: right;
+}
+
+.metric-label {
+    font-size: 1rem;
+    color: #6c757d;
+    text-align: left;
+}
+
+.emoji-container {
+    display: flex;
+    gap: 0.25rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+.emoji {
+    font-size: 1.2rem;
+    opacity: 0.7;
+}
+
+.gap-analysis {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-left: 4px solid #4c6ef5;
+}
+
+.gap-analysis {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: #f8f9fa;
+}
+
+.milestone-marker {
+    position: relative;
+    padding: 0.5rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    margin: 0.5rem 0;
+    border-left: 4px solid #4c6ef5;
+    transition: transform 0.2s;
+}
+
+.milestone-marker {
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    border-radius: 0.5rem;
+    background-color: #f8f9fa;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.milestone-marker:hover {
+    transform: translateX(5px);
+}
+
+.suggestions-list {
+    display: grid;
+    gap: 1rem;
+}
+
+.suggestion-item {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 1rem;
+    border-left: 4px solid #4c6ef5;
+    transition: transform 0.2s;
+}
+
+.suggestion-item:hover {
+    transform: translateX(5px);
+}
+
+.source-link {
+    font-size: 0.8em;
+    color: #666;
+    text-decoration: none;
+    margin-left: 4px;
+}
+
+.source-link:hover {
+    text-decoration: underline;
+    color: #333;
+}
+
+.death-year {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 4px;
+    font-style: italic;
+}
+
+.calculation-note {
+    font-size: 0.8em;
+    color: #666;
+    margin-top: 8px;
+    font-style: italic;
+    line-height: 1.4;
+}
+
+.life-expectancy-info {
+    margin-top: 8px;
+    line-height: 1.4;
+}
+
+.life-expectancy-info .source-link {
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+@media (max-width: 768px) {
+    .container-fluid {
+        padding: 10px;
+    }
+    
+    .card-body {
+        padding: 1rem;
+    }
+    
+    .btn {
+        width: 100%;
+    }
+}
