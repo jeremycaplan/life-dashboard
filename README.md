@@ -2,7 +2,7 @@
 
 **[Try the Life Experience Dashboard Here](https://jeremycaplan.github.io/life-dashboard/)**
 
-A powerful visualization tool that helps you understand and optimize your remaining life experiences. Track your reading habits, movie watching, concert attendance, and holiday celebrations with meaningful metrics and actionable insights.
+A visualization tool that helps you understand and optimize your remaining life experiences. Track your reading habits, movie watching, concert attendance, and holiday celebrations with meaningful metrics and actionable insights.
 
 ## Overview 🌟
 
